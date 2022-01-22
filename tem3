@@ -1,1 +1,8 @@
 Note: In most cases, the guessed user name is correct. However, read your AMI usage instructions to check if the AMI owner has changed the default AMI user name.
+Personal access tokens (PATs) are an alternative to using passwords for authentication to GitHub when using the GitHub API or the command line.
+
+If you want to use a PAT to access resources owned by an organization that uses SAML SSO, you must authorize the PAT. For more information, see "About authentication with SAML single sign-on" and "Authorizing a personal access token for use with SAML single sign-on" in the GitHub Enterprise Cloud documentation.
+
+As a security precaution, GitHub automatically removes personal access tokens that haven't been used in a year. To provide additional security, we highly recommend adding an expiration to your personal access tokens.
+
+A token with no assigned scopes can only access public information. To use your token to access repositories from the command line, select repo. For more information, see "Available scopes".
